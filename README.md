@@ -9,7 +9,7 @@
 <p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
 
 ![Screenshot 1](https://file.patrick15a.de/Random-Community-Launcher_2024-06-05_22-28-07.png)
-![Screenshot 2]([https://i.imgur.com/x3B34n1.png](https://file.patrick15a.de/Random-Community-Launcher_2024-06-05_22-28-21.png))
+![Screenshot 2](https://file.patrick15a.de/Random-Community-Launcher_2024-06-05_22-28-21.png)
 
 ## Features
 
