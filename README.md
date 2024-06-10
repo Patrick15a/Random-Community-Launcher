@@ -39,25 +39,22 @@ This is not an exhaustive list. Download and install the launcher to gauge all i
 
 ## Downloads
 
-You can download from [GitHub Releases](https://github.com/dscalzi/HeliosLauncher/releases)
+You can download from [GitHub Releases](https://github.com/Patrick15a/Random-Community-Launcher/releases)
 
 #### Latest Release
 
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases/latest)
+[![](https://img.shields.io/github/release/Patrick15a/Random-Community-Launcher.svg?style=flat-square)](https://github.com/Patrick15a/Random-Community-Launcher/releases/latest)
 
 #### Latest Pre-Release
-[![](https://img.shields.io/github/release/dscalzi/HeliosLauncher/all.svg?style=flat-square)](https://github.com/dscalzi/HeliosLauncher/releases)
+[![](https://img.shields.io/github/release/Patrick15a/Random-Community-Launcher/all.svg?style=flat-square)](https://github.com/Patrick15a/Random-Community-Launcher/releases)
 
 **Supported Platforms**
 
-If you download from the [Releases](https://github.com/dscalzi/HeliosLauncher/releases) tab, select the installer for your system.
+If you download from the [Releases](https://github.com/Patrick15a/Random-Community-Launcher/releases) tab, select the installer for your system.
 
 | Platform | File |
 | -------- | ---- |
 | Windows x64 | `Helios-Launcher-setup-VERSION.exe` |
-| macOS x64 | `Helios-Launcher-setup-VERSION-x64.dmg` |
-| macOS arm64 | `Helios-Launcher-setup-VERSION-arm64.dmg` |
-| Linux x64 | `Helios-Launcher-setup-VERSION.AppImage` |
 
 ## Console
 
@@ -91,7 +88,7 @@ This section details the setup of a basic developmentment environment.
 **Clone and Install Dependencies**
 
 ```console
-> git clone https://github.com/dscalzi/HeliosLauncher.git
+> git clone https://github.com/Patrick15a/Random-Community-Launcher.git
 > cd HeliosLauncher
 > npm install
 ```
@@ -190,11 +187,6 @@ For instructions on setting up Microsoft Authentication, see https://github.com/
 * [Wiki][wiki]
 * [Nebula (Create Distribution.json)][nebula]
 * [v2 Rewrite Branch (Inactive)][v2branch]
-
-The best way to contact the developers is on Discord.
-
-[![discord](https://discordapp.com/api/guilds/211524927831015424/embed.png?style=banner3)][discord]
-
 ---
 
 ### See you ingame.
