@@ -50,8 +50,6 @@ You can download from [GitHub Releases](https://github.com/Patrick15a/Random-Com
 
 **Supported Platforms**
 
-If you download from the [Releases](https://github.com/Patrick15a/Random-Community-Launcher/releases) tab, select the installer for your system.
-
 | Platform | File |
 | -------- | ---- |
 | Windows x64 | `Helios-Launcher-setup-VERSION.exe` |
