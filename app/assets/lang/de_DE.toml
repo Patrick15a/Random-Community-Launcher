@@ -49,6 +49,8 @@ accountSelectConfirm = "Select"
 accountSelectCancel = "Cancel"
 
 [ejs.settings]
+closeLauncherOnLaunchTitle = "Close the launcher when the game is launched."
+closeLauncherOnLaunchDesc = "Only works with \"Launch game process detached from launcher\" enabled."
 navHeaderText = "Settings"
 navAccount = "Account"
 navMinecraft = "Minecraft"
