@@ -82,10 +82,9 @@ class ProcessBuilder {
 
         if(ConfigManager.getLaunchDetached()){
             child.unref()
-        }
-
-        if(ConfigManager.getCloseOnLaunch() && ConfigManager.getlaunchDetached()){
-            win.close();
+            if(ConfigManager.getCloseOnLaunch()){
+                win.close();
+            }
         }
         
         child.stdout.setEncoding('utf8')
