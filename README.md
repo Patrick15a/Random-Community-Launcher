@@ -73,7 +73,7 @@ If you want to export the console output, simply right click anywhere on the con
 
 ## Development
 
-This section details the setup of a basic developmentment environment.
+This section details the setup of a basic development environment.
 
 ### Getting Started
 
@@ -87,7 +87,7 @@ This section details the setup of a basic developmentment environment.
 
 ```console
 > git clone https://github.com/Patrick15a/Random-Community-Launcher.git
-> cd HeliosLauncher
+> cd Random-Community-Launcher
 > npm install
 ```
 
