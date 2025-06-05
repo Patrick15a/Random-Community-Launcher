@@ -228,14 +228,14 @@ async function fullMicrosoftAuthFlow(entryCode, authMode) {
 
 /**
  * Calculate the expiry date. Advance the expiry time by 10 seconds
- * to reduce the liklihood of working with an expired token.
+ * to reduce the likelihood of working with an expired token.
  * 
  * @param {number} nowMs Current time milliseconds.
- * @param {number} epiresInS Expires in (seconds)
- * @returns 
+ * @param {number} expiresInS Expires in (seconds)
+ * @returns
  */
-function calculateExpiryDate(nowMs, epiresInS) {
-    return nowMs + ((epiresInS-10)*1000)
+function calculateExpiryDate(nowMs, expiresInS) {
+    return nowMs + ((expiresInS-10)*1000)
 }
 
 /**
