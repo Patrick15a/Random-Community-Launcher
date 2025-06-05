@@ -66,7 +66,7 @@ Global settings for [Discord Rich Presence](https://discordapp.com/developers/do
 **Properties**
 
 * `discord.clientId: string` - Client ID for th Application registered with Discord.
-* `discord.smallImageText: string` - Tootltip for the `smallImageKey`.
+* `discord.smallImageText: string` - Tooltip for the `smallImageKey`.
 * `discord.smallImageKey: string` - Name of the uploaded image for the small profile artwork.
 
 
@@ -134,7 +134,7 @@ Server specific settings used for [Discord Rich Presence](https://discordapp.com
 **Properties**
 
 * `discord.shortId: string` - Short ID for the server. Displayed on the second status line as `Server: shortId`
-* `discord.largeImageText: string` - Ttooltip for the `largeImageKey`.
+* `discord.largeImageText: string` - Tooltip for the `largeImageKey`.
 * `discord.largeImageKey: string` - Name of the uploaded image for the large profile artwork.
 
 ### `Server.mainServer: boolean`
@@ -186,7 +186,7 @@ Server-specific Java options.
 
 Platform-specific java rules for this server configuration. Validation rules will be delegated to the client for any undefined properties. Java validation can be configured for specific platforms and architectures. The most specific ruleset will be applied.
 
-Maxtrix Precedence (Highest - Lowest)
+Matrix Precedence (Highest - Lowest)
   - Current platform, current architecture (ex. win32 x64).
   - Current platform, any architecture (ex. win32).
   - Java Options base properties.
