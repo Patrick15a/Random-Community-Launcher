@@ -2479,6 +2479,7 @@ input:checked + .toggleSwitchSlider:before {
     position: relative;
     display: inline-flex;
     flex-direction: column;
+    align-items: center;
     width: 175px;
     height: 110px;
 }
@@ -3076,9 +3077,11 @@ input:checked + .toggleSwitchSlider:before {
     align-items: center;
     transition: 0.25s ease;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 11px;
     background-color: rgba(0, 0, 0, 0.35);
     -webkit-user-select: none;
+    user-select: none;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -3244,6 +3247,15 @@ input:checked + .toggleSwitchSlider:before {
 }
 #youtubeSVG:active {
     fill: #ea0202;
+}
+
+/* GitHub icon colors. */
+#linkSVG:hover,
+#linkURL:focus #linkSVG {
+    fill: #1B1F23;
+}
+#linkSVG:active {
+    fill: #2f3338;
 }
 
 /* Discord icon colors. */
@@ -3482,7 +3494,10 @@ input:checked + .toggleSwitchSlider:before {
     line-height: 24px;
     padding: 0px;
     transition: 0.25s ease;
+    text-align: center;
+    width: 100%;
 }
+
 #server_selection_button:hover,
 #server_selection_button:focus {
     text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff, 0px 0px 20px #fff;
@@ -3543,7 +3558,8 @@ input:checked + .toggleSwitchSlider:before {
     flex-direction: column;
     align-items: center;
     /*justify-content: space-between;*/
-    width: 300px;
+    /* Wider overlay so long server/modpack names can be displayed on one line */
+    width: 420px;
     /*height: 35%;*/
     box-sizing: border-box;
     padding: 15px 0px;
@@ -3700,7 +3716,9 @@ input:checked + .toggleSwitchSlider:before {
 .serverListing {
     border: none;
     padding: 0px;
-    width: 375px;
+    /* Use the overlay width so listings don't force wrapping */
+    width: 100%;
+    box-sizing: border-box;
     min-height: 60px;
     display: flex;
     justify-content: flex-start;
@@ -3782,6 +3800,8 @@ input:checked + .toggleSwitchSlider:before {
     align-items: flex-start;
     justify-content: space-between;
     height: 50px;
+    /* allow details to take remaining horizontal space */
+    flex: 1 1 auto;
 }
 
 /* The name of the server listing. */
@@ -3789,6 +3809,7 @@ input:checked + .toggleSwitchSlider:before {
     font-size: 14px;
     font-weight: bold;
 }
+
 
 /* Description for the server listing. */
 .serverListingDescription {

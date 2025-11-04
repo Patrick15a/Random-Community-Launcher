@@ -1,6 +1,6 @@
 {
   "name": "randomcommunitylauncher",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "productName": "Random-Community Launcher",
   "description": "Random-Community Minecraft Launcher",
   "author": "Daniel Scalzi (https://github.com/dscalzi/) & Patrick15a <patrick15a@myfilehost.de>",
@@ -40,7 +40,7 @@
     "toml": "^3.0.0"
   },
   "devDependencies": {
-    "electron": "^30.0.1",
+    "electron": "^39.0.0",
     "electron-builder": "^24.13.3",
     "eslint": "^8.57.0"
   },

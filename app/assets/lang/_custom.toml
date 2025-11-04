@@ -5,10 +5,10 @@ title = "Random-Community Launcher"
 
 [ejs.landing]
 mediaGitHubURL = "https://github.com/Patrick15a/Random-Community-Launcher"
-mediaTwitterURL = "#"
-mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
-mediaDiscordURL = "#"
+mediaXURL = "https://x.com/Patrick15a"
+mediaInstagramURL = "https://www.instagram.com/patrick15a/"
+mediaYouTubeURL = "https://www.youtube.com/@Patrick15a"
+mediaDiscordURL = "https://discord.gg/skuC5xv3jz"
 
 [ejs.settings]
 sourceGithubLink = "https://github.com/Patrick15a/Random-Community-Launcher"
