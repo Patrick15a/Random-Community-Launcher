@@ -52,7 +52,8 @@ You can download from [GitHub Releases](https://github.com/Patrick15a/Random-Com
 
 | Platform | File |
 | -------- | ---- |
-| Windows x64 | `Helios-Launcher-setup-VERSION.exe` |
+| Windows x64 | `Random-Community-Launcher-setup-VERSION.exe
+` |
 
 ## Console
 
